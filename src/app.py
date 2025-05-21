@@ -11,7 +11,7 @@ def info():
         'time': datetime.datetime.now().strftime("%I:%M:%S%p  on %B %d, %Y"),
         'hostname' : socket.gethostname(),
         'message' : "You are doing great!",
-        'message': "Welcome DevOps Engineer123"
+        'message': "Welcome DevOps Engineer1234"
     })
 
 @app.route('/api/v1/health')
