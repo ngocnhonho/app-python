@@ -24,4 +24,4 @@ jobs:
           context: python-app              # Thư mục chứa Dockerfile
           dockerfile: Dockerfile
           push: true
-          tags: ngocdt1/app-python:${{ github.sh }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app-python:latest
