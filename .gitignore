@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Ngoài ra, nếu bạn dùng virtual environment tên ".venv", nên bỏ luôn:
+.venv/
+
+# Ngoài ra, nếu bạn dùng virtual environment tên ".venv", nên bỏ luôn:
+.idea/
